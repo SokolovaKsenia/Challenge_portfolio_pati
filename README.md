@@ -10,6 +10,6 @@
 
 As the world of computer technology is developing very quickly, 
 and I am a very creative person and I can't stand boring routine work.
-I decided to help speed up this process even more. 
+I decided to help to speed up this process even more. 
 From the project I expect to gain new knowledge, acquaintances and opportunities.
-Thank you for participating in this project and good luck:)
+Thank you for the ability to participate in this project and good luck:)
