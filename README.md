@@ -10,8 +10,8 @@
 
 As the world of computer technology is developing very quickly, 
 and I am a very creative person and I can't stand boring routine work,
-##### I've decided to help to speed up this process even more. 
-###### I've had learnt FrontEnd development before, and last year I've devoted my efforts to Manual QA and AQA, studying by myself and participating in internships at Ukrainian IT companies. 
+###### I've decided to help to speed up this process even more. 
+##### I've had learnt FrontEnd development before, and last year I've devoted my efforts to Manual QA and AQA, studying by myself and participating in internships at Ukrainian IT companies. 
 ##### From the project I expect to gain new knowledge, acquaintances and opportunities. 
 ##### The best ever goal for me - is to obtain a new interesting job in this area.
 
