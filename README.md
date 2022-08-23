@@ -7,22 +7,18 @@
 * What are your expectations for the project?
 
 ## My answers for the questions of Subtask 1:
-
 ##### As the world of computer technology is developing very quickly, and I am a fairly creative person, some time ago I've decided to immerse myself in the world of information technology. 
 ##### Having behind my back over 15 years of experience in the field of social communications, I had finished FrontEnd development course first, and the whole last year I've devoted myself to Manual QA and AQA:studying on my own, finishing several online courses (GoIT, EPAM, SoftServe) as well as taking internship at Ukrainian IT companies
 ##### From the project I expect to gain new knowledge, skills and opportunities. 
 ##### The best ever goal for me - is to obtain a new interesting job in this area.
-
 ##### _I'd like to thank you a lot for the given ability to participate in this project! :)_ 
 
 
 ## Moje odpowiedzi na pytania zadania 1:
-
 ##### Ponieważ świat technologii komputerowej rozwija się bardzo szybko, a ja jestem bardzo kreatywną osobą, jakiś czas temu postanowiłam zanurzyć się w świat technologij informatycznych.
 ##### Już wcześniej uczyłam się programowania FrontEnd, a w zeszłym roku poświęciłam swój czas Manualną QA i AQA, ucząc się samodzielnie i odbywając staże w ukraińskich firmach IT.
 ##### Od projektu oczekuję zdobycia nowej wiedzy, umiejętności i możliwości.
 ##### Pożądanym celem dla mnie jest również zdobycie nowej ciekawej pracy w tej dziedzinie.
-
 ##### **_Bardzo dziękuję za możliwość uczestniczenia w tym projekcie! :)_**
 
 
