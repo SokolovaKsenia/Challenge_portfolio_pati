@@ -20,7 +20,6 @@ class BasePage:
         self.driver.get(url)
         return self.driver.title
 
-
     def wait_for_element_to_be_clickable(self, locator, locator_type=DEFAULT_LOCATOR_TYPE):
         wait = WebDriverWait(self.driver, 7)
         element = wait.until(EC.element_to_be_clickable((locator_type, locator)))

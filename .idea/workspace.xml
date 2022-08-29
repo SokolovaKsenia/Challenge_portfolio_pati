@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2398ed4a-546f-43e6-8d7a-8756090bd9ad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/login_to_the_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/login_to_the_system.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +48,8 @@
       <recent name="C:\Users\Ksenia\Documents\ProjectKsu2022\Challenge_portfolio_pati\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for login_to_the_system.TestLoginPage.test_log_out">
-    <configuration name="Python tests for login_to_the_system.TestLoginPage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for login_to_the_system.TestLoginPage.test_check_sign_in_button_text">
+    <configuration name="Python tests for login_to_the_system.TestLoginPage.test_check_sign_in_button_text" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Challenge_portfolio_pati" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -56,7 +59,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;login_to_the_system.TestLoginPage&quot;" />
+      <option name="_new_target" value="&quot;login_to_the_system.TestLoginPage.test_check_sign_in_button_text&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -74,34 +77,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for login_to_the_system.TestLoginPage.test_invalid_password_to_log_in" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Challenge_portfolio_pati" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;login_to_the_system.TestLoginPage.test_invalid_password_to_log_in&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for login_to_the_system.TestLoginPage.test_log_in_to_the_site" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Challenge_portfolio_pati" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;login_to_the_system.TestLoginPage.test_log_in_to_the_site&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for login_to_the_system.TestLoginPage.test_log_out" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Challenge_portfolio_pati" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,13 +91,41 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for login_to_the_system.TestLoginPage.test_select_language" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Challenge_portfolio_pati" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;login_to_the_system.TestLoginPage.test_select_language&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for login_to_the_system.TestLoginPage.test_select_polish_language" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Challenge_portfolio_pati" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;login_to_the_system.TestLoginPage.test_select_polish_language&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for login_to_the_system.TestLoginPage.test_log_out" />
-        <item itemvalue="Python tests.Python tests for login_to_the_system.TestLoginPage" />
+        <item itemvalue="Python tests.Python tests for login_to_the_system.TestLoginPage.test_check_sign_in_button_text" />
+        <item itemvalue="Python tests.Python tests for login_to_the_system.TestLoginPage.test_select_polish_language" />
+        <item itemvalue="Python tests.Python tests for login_to_the_system.TestLoginPage.test_select_language" />
         <item itemvalue="Python tests.Python tests for login_to_the_system.TestLoginPage.test_empty_login" />
-        <item itemvalue="Python tests.Python tests for login_to_the_system.TestLoginPage.test_invalid_password_to_log_in" />
-        <item itemvalue="Python tests.Python tests for login_to_the_system.TestLoginPage.test_log_in_to_the_site" />
+        <item itemvalue="Python tests.Python tests for login_to_the_system.TestLoginPage.test_log_out" />
       </list>
     </recent_temporary>
   </component>

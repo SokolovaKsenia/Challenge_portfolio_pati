@@ -50,18 +50,15 @@ class TestLoginPage(unittest.TestCase):
         self.user_login.title_of_page()
         time.sleep(4)
 
-    def check_sign_in_button_text(self):
+    def test_check_sign_in_button_text(self):
         self.user_login.title_of_page()
         self.user_login.assert_sign_in_text()
         self.user_login.title_of_page()
         time.sleep(4)
 
-    def select_language(self, language):
-        self.user_login.click_on_language_listbox()
-        if language == "Polski":
-            self.user_login.click_on_the_element(self.user_login.dropdown_polski_xpath)
-        else:
-            self.user_login.click_on_the_element(self.user_login.dropdown_english_xpath)
+    def test_select_polish_language(self):
+        self.user_login.title_of_page()
+        self.user_login.select_language("Polski")
         time.sleep(4)
 
     def test_log_out(self):

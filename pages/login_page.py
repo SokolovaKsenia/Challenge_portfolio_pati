@@ -35,6 +35,14 @@ class LoginPage(BasePage):
         self.type_in_password(password)
         self.click_on_the_sign_in_button()
 
+    def select_language(self, language):
+        self.click_on_the_element(self.language_xpath)
+        if language == "Polski":
+            self.click_on_the_element(self.dropdown_polski_xpath)
+        else:
+            self.click_on_the_element(self.dropdown_english_xpath)
+
+
     def title_of_page(self):
         assert self.get_page_title(self.login_url) == self.expected_title
 
