@@ -1,13 +1,13 @@
-<img src="C:\Users\Ksenia\Documents\ProjectKsu2022\Challenge_portfolio_pati\images\readme-banner.jpg"/>
+<img src="https://github.com/SokolovaKsenia/challenge_portfolio_KS/blob/main/images/readme-banner.jpg"/>
 
 <h2 align="left">Hi there, I'm <a href="www.linkedin.com/in/kseniia-sokolova-ks">Kseniia</a> 
-<img src="C:\Users\Ksenia\Documents\ProjectKsu2022\Challenge_portfolio_pati\images\Hi.gif.crdownload" height="32"/></h2>
+<img src="https://github.com/SokolovaKsenia/challenge_portfolio_KS/blob/main/images/Hi.gif.crdownload" height="32"/></h2>
 
 <p></p>
 <table style="width: 100%; border-collapse: collapse; border-style: inset; margin-left: auto; margin-right: auto;" cellpadding="20">
 <tbody>
 <tr>
-<td style="width: 51%;">
+<td style="width: 50%;">
 <h3 style="text-align: center;"><span>Why did I choose to participate in the "Challenge portfolio project?</span></h3>
 <p style="text-align: justify;">As the world of computer technology is developing very quickly, some time ago I've decided to immerse myself in the world of IT.</p>
 <p style="text-align: justify;">Having behind my back over 15 years of experience in the field of social communications, I had finished<span>&nbsp;</span><strong>FrontEnd</strong><span>&nbsp;</span>development course first, and the whole last year I've devoted myself to<span>&nbsp;</span><strong>Manual QA</strong><span>&nbsp;</span>and<span>&nbsp;</span><strong>AQA</strong>: having studied on my own, finished several online courses (GoIT, EPAM) as well as taken internships at Ukrainian IT companies.</p>
@@ -16,8 +16,8 @@
 <h4 style="text-align: center;"><span style="text-align: justify;"><span style="text-decoration: underline;"><em><strong>Thank you a lot for the chance to participate in Challenge Portfolio Program! :)</strong></em></span></span></h4>
 </blockquote>
 </td>
-<td style="width: 49%; text-align: center; vertical-align: top;">
-<h3><span md-src-pos="1318..1355">Dlaczego zdecydowałam się na udział w</span><span>&nbsp;</span>"<span md-src-pos="1357..1376">Challenge portfolio</span>"<span md-src-pos="1377..1378">?</span></h3>
+<td style="width: 50%; text-align: center; vertical-align: top;">
+<h3><span>Dlaczego zdecydowałam się na udział w "Challenge portfolio"?</span></h3>
 <p style="text-align: justify;">Ponieważ świat technologii komputerowej rozwija się bardzo szybko, jakiś czas temu postanowiłam zanurzyć się w świat technologij informatycznych.</p>
 <p style="text-align: justify;">Już wcześniej uczyłam się programowania<strong><span>&nbsp;</span>FrontEnd</strong>, a w zeszłym roku poświęciłam sw&oacute;j czas<span>&nbsp;</span><strong>Manualną QA</strong><span>&nbsp;</span>i<span>&nbsp;</span><strong>AQA</strong>, ucząc się samodzielnie i odbywając staże w ukraińskich firmach IT.</p>
 <p style="text-align: justify;">Od projektu oczekuję zdobycia nowej wiedzy oraz umiejętności. Pożądanym celem dla mnie jest r&oacute;wnież zdobycie nowej ciekawej pracy w tej dziedzinie.</p>
