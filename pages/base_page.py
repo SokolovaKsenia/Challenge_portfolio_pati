@@ -7,6 +7,8 @@ from utils.settings import DEFAULT_LOCATOR_TYPE
 
 
 class BasePage:
+    # expected_text = "Name: Z to A"
+
     def __init__(self, driver: WebDriver):
         self.driver = driver
 
@@ -20,6 +22,11 @@ class BasePage:
         self.driver.get(url)
         return self.driver.title
 
+    def get_element_text(self, driver, xpath):
+        element = driver.find_element(by=By.XPATH, value=xpath)
+        element_text = element.text
+        print(element_text)
+
     def wait_for_element_to_be_clickable(self, locator, locator_type=DEFAULT_LOCATOR_TYPE):
         wait = WebDriverWait(self.driver, 7)
         element = wait.until(EC.element_to_be_clickable((locator_type, locator)))
@@ -29,9 +36,16 @@ class BasePage:
         element = wait.until(EC.visibility_of_element_located((locator_type, locator)))
 
     def assert_element_text(self, driver, xpath, expected_text):
-        # self.driver.get("https://scouts-test.futbolkolektyw.pl")
-        expected_text = "Scouts Panel"
-        element_xpath = "//*[text()= 'Scouts Panel']"
-        element = driver.find_element(by=By.XPATH, value=element_xpath)
+        element = driver.find_element(by=By.XPATH, value=xpath)
         element_text = element.text
-        assert expected_text == element_text
+        assert element_text == expected_text
+
+        # if element_text == expected_text:
+        #     print("Texts of the element and the expected text are the same")
+        # else:
+        #     print("Text of the messages do not match")
+
+
+
+
+

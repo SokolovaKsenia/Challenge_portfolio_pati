@@ -9,14 +9,16 @@ class LoginPage(BasePage):
     expected_title = "Scouts panel - sign in"
     title_of_box_xpath = "//*[@id='__next']/form/div/div[1]/h5"
     header_of_box = "Scouts Panel"
-    invalid_login_message_xpath = "//span[contains(@class, 'MuiTypography-root')]"
-    expected_invalid_password_message = "Identifier or password invalid."
-    expected_empty_login_message = "Please provide your username or your e-mail."
     sign_in_button_text = "Sign in"
     language_xpath = "//*[@role='button']"
     dropdown_polski_xpath = "//li[@data-value='pl']"
     dropdown_english_xpath = "//li[@data-value='en']"
     expected_remind_page_header = "Remind password"
+    invalid_login_message_xpath = "//span[contains(@class, 'MuiTypography-root')]"
+    expected_invalid_password_message = "Identifier or password invalid."
+    expected_empty_login_message = "Please provide your username or your e-mail."
+
+
 
     def type_in_login(self, login):
         self.field_send_keys(self.login_field_xpath, login)
@@ -42,7 +44,6 @@ class LoginPage(BasePage):
         else:
             self.click_on_the_element(self.dropdown_english_xpath)
 
-
     def title_of_page(self):
         assert self.get_page_title(self.login_url) == self.expected_title
 
@@ -57,3 +58,6 @@ class LoginPage(BasePage):
 
     def check_title_of_box(self):
         self.assert_element_text(self.driver, self.title_of_box_xpath, self.header_of_box)
+
+    # def get_element_text(self):
+    #     self.driver.find_elements_by_xpath("//*[contains(text(), 'Sign in')]")

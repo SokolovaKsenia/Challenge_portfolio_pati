@@ -7,13 +7,23 @@ from pages.add_player import AddPlayer
 from pages.dashboard import Dashboard
 from pages.login_page import LoginPage
 from utils.settings import DRIVER_PATH, IMPLICITLY_WAIT
+from selenium.webdriver.chrome.service import Service
+
+
+def cookieClicker():
+    s = Service("C:/chromedriver/chromedriver.exe")
+    driver = webdriver.Chrome(service=s)
+
+# from selenium.webdriver.chrome.service import Service
 
 
 class TestDashboardPage(unittest.TestCase):
+    full_name = "Lionel Messi"
+
     @classmethod
     def setUp(self):
         os.chmod(DRIVER_PATH, 755)
-        self.driver = webdriver.Chrome(executable_path=DRIVER_PATH)
+        self.driver = webdriver.Chrome(service=Service("C:/chromedriver/chromedriver.exe"))
         self.driver.get('https://scouts-test.futbolkolektyw.pl/en')
         self.driver.fullscreen_window()
         self.driver.implicitly_wait(IMPLICITLY_WAIT)
@@ -30,6 +40,7 @@ class TestDashboardPage(unittest.TestCase):
         add_player.type_in_main_position("forward")
         add_player.select_leg("right")
         add_player.click_on_the_submit_button()
+        add_player.verify_player_added_in_menu(self.full_name)
         time.sleep(5)
 
     @classmethod

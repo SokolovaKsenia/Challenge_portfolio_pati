@@ -7,7 +7,7 @@ from pages.base_page import BasePage
 
 
 class Dashboard(BasePage):
-    dev_team_contact_hyperlink_xpath = "// a[contains(@ href, '://')]"
+    dev_team_contact_hyperlink_xpath = "//a[contains(@href, '://')]"
     logo_scouts_panel_xpath = "//*[contains(@class, 'MuiCardMedia')]"
     add_player_hyperlink_xpath = "//*[2][name()='a']"
     super_man_hyperlink_xpath = "//h6//following-sibling::a[1]"
@@ -27,6 +27,9 @@ class Dashboard(BasePage):
     scouts_panel_description_xpath = "//*[contains(@class, 'TextSecondary')]"
     sign_out_menu_xpath = "(//ul[contains(@class, 'MuiList-root')])[2]/div[2]/div/span"
     add_player_button_xpath = "//*[text()='Add player']"
+    created_player_xpath = "(//div[contains(@class, 'MuiPaper-root')])[8]/div/a[1]"
+    updated_player_xpath = "(//div[contains(@class, 'MuiPaper-root')])[8]/div/a[2]"
+    last_updated_report_xpath = "(//div[contains(@class, 'MuiPaper-root')])[8]/div/a[3]"
     # element_text = 'Scouts Panel'
     # element_text_xpath = "//*[@id='__next']/div[1]/header/div/h6"
 
@@ -39,10 +42,13 @@ class Dashboard(BasePage):
     def title_of_page(self):
         self.wait_for_element_to_be_clickable(self.logo_scouts_panel_xpath)
         assert self.get_page_title(self.dashboard_url) == self.expected_title
+
     def click_on_add_player(self):
         self.click_on_the_element(self.add_player_button_xpath)
+
     def click_on_the_main_page_icon_xpath(self):
         self.click_on_the_element(self.main_page_icon_xpath)
+
     def visibility_of_element_located(self):
         self.click_on_the_element(self.players_count_field_xpath)
 

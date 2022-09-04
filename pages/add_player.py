@@ -2,6 +2,7 @@ from selenium.webdriver.common.by import By
 
 from pages.base_page import BasePage
 
+
 class AddPlayer(BasePage):
     player_name_field_xpath = "//input[@name='name']"
     player_surname_field_xpath = "//input[@name='surname']"
@@ -12,7 +13,6 @@ class AddPlayer(BasePage):
     main_position_field_xpath = "//input[@name='mainPosition']"
     submit_button_xpath = "//button[@type='submit']/span[1]"
     edit_player_header_xpath = "//span[contains(@class, 'MuiTypography-h5')]"
-
 
     def type_in_name(self, name):
         self.field_send_keys(self.player_name_field_xpath, name)
@@ -36,4 +36,6 @@ class AddPlayer(BasePage):
     def click_on_the_submit_button(self):
         self.click_on_the_element(self.submit_button_xpath)
 
-
+    def verify_player_added_in_menu(self, name):
+        player_menu_item_xpath = "//ul/div/div/span[text()[contains(., '{}')]]".format(name)
+        self.wait_for_element_to_be_clickable(player_menu_item_xpath)
