@@ -30,13 +30,10 @@ class Dashboard(BasePage):
     created_player_xpath = "(//div[contains(@class, 'MuiPaper-root')])[8]/div/a[1]"
     updated_player_xpath = "(//div[contains(@class, 'MuiPaper-root')])[8]/div/a[2]"
     last_updated_report_xpath = "(//div[contains(@class, 'MuiPaper-root')])[8]/div/a[3]"
-    # element_text = 'Scouts Panel'
-    # element_text_xpath = "//*[@id='__next']/div[1]/header/div/h6"
-
-    expected_title = 'Scouts panel'
-    dashboard_url = 'https://scouts-test.futbolkolektyw.pl'
     element_text = 'Scouts Panel'
-    element_text_xpath = '//*[@id="__next"]/form/div/div[1]/h5'
+    element_text_xpath = "//*[@id='__next']/div[1]/header/div/h6"
+    expected_title = 'Scouts panel'
+    dashboard_url = 'https://scouts.futbolkolektyw.pl/en/'
     wait = WebDriverWait(driver, 7)
 
     def title_of_page(self):

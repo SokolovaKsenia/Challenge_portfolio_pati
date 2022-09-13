@@ -23,7 +23,7 @@ class TestLoginPage(unittest.TestCase):
     def setUp(self):
         os.chmod(DRIVER_PATH, 755)
         self.driver = webdriver.Chrome(service=Service("C:/chromedriver/chromedriver.exe"))
-        self.driver.get('https://scouts-test.futbolkolektyw.pl/en')
+        self.driver.get('https://scouts.futbolkolektyw.pl/en/')
         self.driver.fullscreen_window()
         self.driver.implicitly_wait(IMPLICITLY_WAIT)
         self.user_login = LoginPage(self.driver)
@@ -76,7 +76,7 @@ class TestLoginPage(unittest.TestCase):
     def test_log_out(self):
         self.user_login.log_in('user10@getnada.com', 'Test-1234')
         self.dashboard_page.wait_for_sign_out_is_visible()
-        time.sleep(2)
+        self.dashboard_page.title_of_page()
         self.dashboard_page.click_on_sign_out_button()
         self.user_login.title_of_page()
         time.sleep(4)

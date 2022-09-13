@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2398ed4a-546f-43e6-8d7a-8756090bd9ad" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Challenge_portfolio_pati.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Challenge_portfolio_pati.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/add_player.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/add_player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dashboard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_cases/add_player_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/add_player_test.py" afterDir="false" />
@@ -55,21 +50,7 @@
       <recent name="C:\Users\Ksenia\Documents\ProjectKsu2022\Challenge_portfolio_pati\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for add_player_test.TestDashboardPage">
-    <configuration name="Python tests for add_player_test.TestDashboardPage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Challenge_portfolio_pati" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;add_player_test.TestDashboardPage&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for login_to_the_system.TestLoginPage.test_log_out">
     <configuration name="Python tests for add_player_test.TestDashboardPage.test_add_player_on_dashboard" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Challenge_portfolio_pati" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,7 +79,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for login_to_the_system.TestLoginPage.test_check_sign_in_button_text" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for login_to_the_system.TestLoginPage.test_log_in_to_the_site" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Challenge_portfolio_pati" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,7 +89,21 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;login_to_the_system.TestLoginPage.test_check_sign_in_button_text&quot;" />
+      <option name="_new_target" value="&quot;login_to_the_system.TestLoginPage.test_log_in_to_the_site&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for login_to_the_system.TestLoginPage.test_log_out" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Challenge_portfolio_pati" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;login_to_the_system.TestLoginPage.test_log_out&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -128,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for add_player_test.TestDashboardPage" />
+        <item itemvalue="Python tests.Python tests for login_to_the_system.TestLoginPage.test_log_out" />
+        <item itemvalue="Python tests.Python tests for login_to_the_system.TestLoginPage.test_log_in_to_the_site" />
+        <item itemvalue="Python tests.Python tests for login_to_the_system.TestLoginPage.test_text_box_title" />
         <item itemvalue="Python tests.Python tests for add_player_test.TestDashboardPage.test_add_player_on_dashboard" />
         <item itemvalue="Python tests.Python tests for login_to_the_system.TestLoginPage" />
-        <item itemvalue="Python tests.Python tests for login_to_the_system.TestLoginPage.test_check_sign_in_button_text" />
-        <item itemvalue="Python tests.Python tests for login_to_the_system.TestLoginPage.test_text_box_title" />
       </list>
     </recent_temporary>
   </component>

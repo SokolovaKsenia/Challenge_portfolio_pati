@@ -3,9 +3,6 @@ import time
 import unittest
 from selenium import webdriver
 from selenium.webdriver.chrome import webdriver
-#from selenium.webdriver.chrome.service import Service
-from webdriver.manager.chrome import ChromeDriverManager
-driver = webdriver.Chrome(ChromeDriverManager().install())
 from utils.settings import DRIVER_PATH, IMPLICITLY_WAIT
 
 
@@ -15,7 +12,7 @@ class Test(unittest.TestCase):
     @classmethod
     def setUp(self):
         os.chmod(DRIVER_PATH, 755)
-        self.driver.get("https://scouts-test.futbolkolektyw.pl/en")
+        self.driver.get("https://scouts.futbolkolektyw.pl/en/")
         self.driver.fullscreen_window()
         self.driver.implicitly_wait(IMPLICITLY_WAIT)
 
